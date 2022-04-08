@@ -54,7 +54,7 @@ macro_rules! everything {
 
         use ::$($parent)::+::hash_map::{self, HashMap};
 
-        use crate::any::{Downcast, IntoBox};
+        use crate::any::{IntoBox};
 
         /// Raw access to the underlying `HashMap`.
         ///
